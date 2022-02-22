@@ -1,0 +1,140 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "aesopian": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        },
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/aesopian",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets",
+              "src/assets/plugins"
+            ],
+            "styles": [
+              "src/styles.scss"
+
+              // "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              // "node_modules/font-awesome/css/font-awesome.min.css",   
+              // "src/assets/1/css/sstyle.css",
+
+
+
+              // "src/assets/plugins/BookBlock/css/jquery.jscrollpane.custom.css",
+              //  "src/assets/plugins/BookBlock/css/bookblock.css",
+              //   "src/assets/plugins/BookBlock/css/demo.css"
+            ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",              
+              "node_modules/foundation/js/foundation/foundation.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+
+              "src/assets/1/js/main1.js",
+              
+              "src/assets/plugins/turnjs/turn.min.js",
+
+              "src/assets/plugins/BookBlock/js/modernizr.custom.js",
+               "src/assets/plugins/BookBlock/js/jquery.mousewheel.js",
+               "src/assets/plugins/BookBlock/js/jquery.jscrollpane.min.js",
+              "src/assets/plugins/BookBlock/js/jquerypp.custom.js",
+              "src/assets/plugins/BookBlock/js/jquery.bookblock.js"
+
+            ]
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "500kb",
+                  "maximumError": "500kb"
+                }
+              ],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "aesopian:build:production"
+            },
+            "development": {
+              "browserTarget": "aesopian:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "aesopian:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/test.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
+            "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
+        }
+      }
+    }
+  },
+  "defaultProject": "aesopian"
+}
