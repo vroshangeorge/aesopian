@@ -1,0 +1,11 @@
+[
+    {
+        "id":1,
+        "imgUrl": "assets/imgs/the-frogs-and-the-ox-1.jpg",
+        "category": "Aesop's Fables",
+        "title": "The Frogs & the Ox",
+        "story": "<p>An Ox came down to a reedy pool to drink. As he splashed heavily into the water, he crushed a young Frog into the mud.</p><p>The old Frog soon missed the little one and asked his brothers and sisters what had become of him.</p><p>\"A great big monster,\" said one of them, \"stepped on little brother with one of his huge feet!\"</p><p>\"Big, was he!\" said the old Frog, puffing herself up. \"Was he as big as this?\"</p><p>\"Oh, much bigger!\" they cried.</p><p>The Frog puffed up still more.</p><p>\"He could not have been bigger than this\", she said. But the little Frogs all declared that the monster was much, much bigger and the old Frog kept puffing herself out more and more until, all at once, she burst.</p>",
+        "moral": "Do not attempt the impossible.",
+        "isRead": false
+    }
+]
