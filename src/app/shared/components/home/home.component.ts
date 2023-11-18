@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+//import * as Parallax from 'parallax-js';
+declare let require: any;
+
+
 
 @Component({
   selector: 'app-home',
@@ -13,7 +17,16 @@ export class HomeComponent implements OnInit {
 
   constructor(private router: Router) { }
 
+
   ngOnInit(): void {
+    const Parallax = require('parallax-js');
+
+
+    var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene, {
+          relativeInput: true
+        });
+
   }
 
   redirectToBookshelf() {

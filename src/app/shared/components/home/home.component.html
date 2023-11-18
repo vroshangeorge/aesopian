@@ -19,9 +19,17 @@
 
 
 <section id="hero">
-    <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">   
-        <img class="img-fluid" src="../assets/1/title.png" style="width: 400px;" /><br />
-<img class="img-fluid" src="../assets/1/smalltitle.png" style="width: 450px;margin-top: 15px;" />
+
+    <div id="scene" style="position: absolute !important; height: 100%; width: 100%; overflow: hidden;">
+        <div data-depth="1.00" class="parallax-cloud cloud cloud1"><img src="assets/imgs/cloud1.png"></div>
+        <div data-depth="0.60" class="parallax-cloud cloud cloud2"><img src="assets/imgs/cloud2.png"></div>
+        <div data-depth="0.40" class="parallax-cloud cloud cloud3"><img src="assets/imgs/cloud2.png"></div>
+    </div>
+    
+    <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">      
+        <img class="img-fluid" src="assets/1/title.png" style="width: 400px;-webkit-filter: drop-shadow(0px 0px 15px #fff); filter: drop-shadow(0px 0px 15px #fff);" /><br />
+<img class="img-fluid" src="assets/1/smalltitle.png" style="width: 450px;margin-top: 15px;-webkit-filter: drop-shadow(0px 0px 15px #fff); filter: drop-shadow(0px 0px 15px #fff);" />
 <a href="javascript:void(0)" (click)="redirectToBookshelf()" class="img-fluid glightbox play-btn mb-4" style="margin: 50px auto;"></a>
     </div>
   </section>
+

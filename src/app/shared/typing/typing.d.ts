@@ -1,12 +1,16 @@
 interface JQuery {
      turn(options?: any): any;    
     // booklet(options?: any): any;
-    // booklet(options?: any): JQuery;
+   // Parallax(options?: any): JQuery;
     //booklet(): any;
     bookblock(options?: any): any;
-    //PageFilp(options?: any): any;
+    //wipetouch(options?: any): any;
   }
 
+  declare module 'parallax-js' {
+    export interface parallax {}
+    export function Parallax(scene:any, optionns?:object): void;
+}
 
   declare namespace __Modernizr {
     interface AudioBoolean {

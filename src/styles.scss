@@ -1,4 +1,17 @@
 @font-face {
+    font-family: 'Goudy Bookletter 1911';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./assets/fonts/goudy-bookletter.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+
+
+
+@font-face {
     font-family: "AgentOrange";
     src: local("AgentOrange"), url(./assets/fonts/AGENTORANGE.ttf) format("truetype");
 }
@@ -6,4 +19,104 @@
 @font-face {
     font-family: "Sketch3D";
     src: local("Sketch3D"), url('./assets/fonts/Sketch 3D.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "AlexisMarieMedium";
+    src: local("AlexisMarieMedium"), url(./assets/fonts/alexis-marie.medium.ttf) format("truetype");
+}
+
+// @font-face {
+//     font-family: "AntiPasoLight";
+//     src: local("AntiPasoLight"), url('./assets/fonts/antipaso.light.ttf') format("opentype");
+// }
+
+// @font-face {
+//     font-family: "AntiPasoRegular";
+//     src: local("AntiPasoRegular"), url(./assets/fonts/antipaso.regular.ttf) format("truetype");
+// }
+
+@font-face {
+    font-family: "ButterflyKidsRegular";
+    src: local("ButterflyKidsRegular"), url('./assets/fonts/butterfly-kids.regular.ttf') format("opentype");
+}
+
+@font-face {
+    font-family: "DeliusRegular";
+    src: local("DeliusRegular"), url(./assets/fonts/delius.regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "DosisBook";
+    src: local("DosisBook"), url('./assets/fonts/dosis.book.ttf') format("opentype");
+}
+
+@font-face {
+    font-family: "DosisLight";
+    src: local("DosisLight"), url(./assets/fonts/dosis.light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "ElizaJane";
+    src: local("ElizaJane"), url('./assets/fonts/elizajane.regular.ttf') format("opentype");
+}
+
+@font-face {
+    font-family: "MathevaRegular";
+    src: local("MathevaRegular"), url(./assets/fonts/matheva.regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "MySillyWillyGirlFriend";
+    src: local("MySillyWillyGirlFriend"), url('./assets/fonts/my-silly-willy-girl.medium.ttf') format("opentype");
+}
+
+@font-face {
+    font-family: "MysteryQuest";
+    src: local("MysteryQuest"), url('./assets/fonts/mystery-quest.regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "OreganoRegular";
+    src: local("OreganoRegular"), url('./assets/fonts/oregano.regular.ttf') format("opentype");
+}
+
+@font-face {
+    font-family: "QarmicSans";
+    src: local("QarmicSans"), url(./assets/fonts/qarmic-sans.regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "RalewayLight";
+    src: local("RalewayLight"), url('./assets/fonts/raleway.light.ttf') format("opentype");
+}
+
+@font-face {
+    font-family: "RalewayRegular";
+    src: local("RalewayRegular"), url(./assets/fonts/raleway.regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "RobotTeacher";
+    src: local("RobotTeacher"), url('./assets/fonts/robot-teacher.regular.ttf') format("opentype");
+}
+
+@font-face {
+    font-family: "SemplicitaLight";
+    src: local("SemplicitaLight"), url(./assets/fonts/semplicita.light.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "SFCartoonistBold";
+    src: local("SFCartoonistBold"), url('./assets/fonts/sf-cartoonist-hand.bold.ttf') format("opentype");
+}
+
+@font-face {
+    font-family: "SFCartoonistRegular";
+    src: local("SFCartoonistRegular"), url('./assets/fonts/sf-cartoonist-hand.regular.ttf') format("opentype");
+}
+
+@font-face {
+    font-family: "Speedball";
+    src: local("Speedball"), url('./assets/fonts/speedballno3.regular.ttf') format("opentype");
 }

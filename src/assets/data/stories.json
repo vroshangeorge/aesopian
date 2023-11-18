@@ -1,0 +1,46 @@
+[
+    {
+        "id":2,
+        "imgUrl": "assets/imgs/the-frogs-and-the-ox-1.jpg",
+        "category": "Aesop's Fables",
+        "title": "The Frogs & the Ox",
+        "story": "<p>An Ox came down to a reedy pool to drink. As he splashed heavily into the water, he crushed a young Frog into the mud.</p><p>The old Frog soon missed the little one and asked his brothers and sisters what had become of him.</p><p>\"A great big monster,\" said one of them, \"stepped on little brother with one of his huge feet!\"</p><p>\"Big, was he!\" said the old Frog, puffing herself up. \"Was he as big as this?\"</p><p>\"Oh, much bigger!\" they cried.</p><p>The Frog puffed up still more.</p><p>\"He could not have been bigger than this\", she said. But the little Frogs all declared that the monster was much, much bigger and the old Frog kept puffing herself out more and more until, all at once, she burst.</p>",
+        "moral": "Do not attempt the impossible.",
+        "isRead": false,
+        "isFavourited": true,
+        "isBookmarked": false
+    },
+    {
+        "id":3,
+        "imgUrl": "assets/imgs/belling-the-cat-4.jpg",
+        "category": "Aesop's Fables",
+        "title": "The Town Mouse And the Country Mouse",
+        "story": "<p>The Mice once called a meeting to decide on a plan to free themselves of their enemy, the Cat. At least they wished to find some way of knowing when she was coming, so they might have time to run away. Indeed, something had to be done, for they lived in such constant fear of her claws that they hardly dared stir from their dens by night or day.</p><p>Many plans were discussed, but none of them was thought good enough. At last a very young Mouse got up and said:</p><p>\"I have a plan that seems very simple, but I know it will be successful.</p><p>All we have to do is to hang a bell about the Cat's neck. When we hear the bell ringing we will know immediately that our enemy is coming.\"</p><p>All the Mice were much surprised that they had not thought of such a plan before. But in the midst of the rejoicing over their good fortune, an old Mouse arose and said:</p><p>\"I will say that the plan of the young Mouse is very good. But let me ask one question: Who will bell the Cat?\"</p>",
+        "moral": "It is one thing to say that something should be done, but quite a different matter to do it.",
+        "isRead": false,
+        "isFavourited": false,
+        "isBookmarked": true
+    },
+    {
+        "id":4,
+        "imgUrl": "assets/imgs/fox-sit-1.jpg",
+        "category": "Aesop's Fables",
+        "title": "The Fox & the Grapes",
+        "story": "<p>A Fox one day spied a beautiful bunch of ripe grapes hanging from a vine trained along the branches of a tree. The grapes seemed ready to burst with juice, and the Fox's mouth watered as he gazed longingly at them.</p><p>The bunch hung from a high branch, and the Fox had to jump for it. The first time he jumped he missed it by a long way. So he walked off a short distance and took a running leap at it, only to fall short once more. Again and again he tried, but in vain.</p><p>Now he sat down and looked at the grapes in disgust.</p><p>\"What a fool I am,\" he said. \"Here I am wearing myself out to get a bunch of sour grapes that are not worth gaping for.\"</p><p>And off he walked very, very scornfully.</p>",
+        "moral": "There are many who pretend to despise and belittle that which is beyond their reach.",
+        "isRead": false,
+        "isFavourited": true,
+        "isBookmarked": true
+    },
+    {
+        "id":5,
+        "imgUrl": "assets/imgs/fox-sit-1.jpg",
+        "category": "Aesop's Fables",
+        "title": "Who Bells the Cat?",
+        "story": "<p>A Fox one day spied a beautiful bunch of ripe grapes hanging from a vine trained along the branches of a tree. The grapes seemed ready to burst with juice, and the Fox's mouth watered as he gazed longingly at them.</p><p>The bunch hung from a high branch, and the Fox had to jump for it. The first time he jumped he missed it by a long way. So he walked off a short distance and took a running leap at it, only to fall short once more. Again and again he tried, but in vain.</p><p>Now he sat down and looked at the grapes in disgust.</p><p>\"What a fool I am,\" he said. \"Here I am wearing myself out to get a bunch of sour grapes that are not worth gaping for.\"</p><p>And off he walked very, very scornfully.</p>",
+        "moral": "There are many who pretend to despise and belittle that which is beyond their reach.",
+        "isRead": false,
+        "isFavourited": false,
+        "isBookmarked": false
+    }
+]

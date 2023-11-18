@@ -1,29 +1,27 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './shared/components/home/home.component';
-import { StoriesComponent } from './shared/components/stories/stories.component';
-import { BookComponent } from './shared/components/book/book.component';
 import { TurnjsDirective } from './shared/directives/turnjs.directive';
-import { OpenBookComponent } from './shared/components/open-book/open-book.component';
-import { SlidesComponent } from './shared/components/slides/slides.component';
-import { BookblockComponent } from './shared/components/bookblock/bookblock.component';
+import { FilterList, SafeHtmlPipe, SlidesComponent } from './shared/components/slides/slides.component';
+import { StoryComponent } from './shared/components/story/story.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    StoriesComponent,
-    BookComponent,
     TurnjsDirective,
-    OpenBookComponent,
     SlidesComponent,
-    BookblockComponent
+    FilterList,
+    SafeHtmlPipe,
+    StoryComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],

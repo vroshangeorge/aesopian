@@ -1,0 +1,30 @@
+.scene {
+    position: absolute !important;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.parallax-cloud {
+    position: absolute;
+}
+.cloud {
+    z-index: 3;
+    right: 5%;
+    top: 10%;
+}
+
+
+.cloud1{
+top: 15% !important;
+left: 10% !important;
+}
+.cloud2{
+    top: 25% !important;
+    left: 25% !important;    
+}
+.cloud3{    
+top: 30% !important;
+left: 50% !important; 
+}
